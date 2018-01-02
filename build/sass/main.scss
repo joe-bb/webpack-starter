@@ -1,0 +1,14 @@
+
+// sass files in node_modules are added using the tilde symbol "~"
+// this lets webpack know where to get the files from
+// vendors are added to package.json with command -> npm install animate.css --save
+
+// Input Vendors First
+@import "~animate.css/animate.css";
+@import "~font-awesome/css/font-awesome";
+@import "~bootstrap/dist/css/bootstrap";
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+
+
+
